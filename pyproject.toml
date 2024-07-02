@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "packet-raptor"
+version = "0.1.0"
+description = ""
+authors = ["Marcus Vinicus Braga <mvbraga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.42.3"
+sentence-transformers = "^3.0.1"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.13"
+python-dotenv = "^1.0.1"
+langchain-experimental = "^0.0.62"
+instructorembedding = "^1.0.1"
+langchain-huggingface = "^0.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
